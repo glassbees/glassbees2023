@@ -75,11 +75,11 @@
 
 a {
   text-decoration: underline;
-  color: #222;
+  color: #1f3d59; /* dark blue */
 }
 
 a:visited {
-  color: #333;
+  color: #1f3d59; /* dark blue */
 }
 
 a:hover {
@@ -114,7 +114,15 @@ body {
   z-index: 9;
   padding-bottom; 0.5em;
   font-family: courier, monospace, serif;
-  font-size: 0.8em;
+  font-size: 14px;
+}
+
+.caption {
+  color: #515151;
+  line-height: 1.1;
+  font-family: courier, monospace, serif;
+  font-size: 14px;
+  text-align: left;
 }
 
 .scroll-wrapper {
@@ -135,7 +143,7 @@ body {
 }
 
 .main-content {
-  width: 40em;
+  width: 44em;
   margin: 1em auto 1em;
   text-align: center;
   top: 0
@@ -147,10 +155,12 @@ body {
 	height: auto;
 }
 
-.logo-image{
-  width: 90%;
+.main-content .logo-image{
+  width: 85%;
+  left: -4%;
   height: auto;
   z-index: 9999;
+  margin: 0 0 2em;
 }
 
 h1, h2 {
@@ -161,8 +171,8 @@ h1, h2 {
 }
 
 h2 {
-  padding: 1em 0 0;
-  margin: 1em auto 1em;
+  padding: 0;
+  margin: 0 auto 1em;
   text-align: left;
   overflow: hidden;
 }
@@ -174,6 +184,8 @@ h3 {
 .timeline-container {
   border-left: 1px solid #999;
   padding: 0;
+  left: -4em;
+  width: 44em;
 }
 
 .timeline .thing:before {
@@ -182,7 +194,7 @@ h3 {
   border-top: 1px solid #999;
   height: 1px;
   width: 3em;
-  top: 2.5em;
+  top: 0.5em;
   left: 0;
 }
 
@@ -190,7 +202,8 @@ h3 {
   text-align: left;
   overflow: hidden;
   margin: 0 auto;
-  padding: 2em 0 2em 4em;
+  top: -0.5em;
+  padding: 0 0 3em 4em;
 }
 
 p.date  {
@@ -209,16 +222,24 @@ p.date  {
 
 p.date, .thing p, .thing h3  {
   font-family: courier, monospace, serif;
-  font-size: 14px;
+  font-size: 17px;
   text-align: left;
   line-height: 1.3;
 }
 
 .thing p {
-	-webkit-hyphens: auto;
-  	-ms-hyphens: auto;
-  	hyphens: auto;
 	text-align: justify;
+	-webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; 	
+  -ms-hyphenate-limit-lines: no-limit;
+  -webkit-hyphenate-limit-lines: no-limit; 
+  hyphenate-limit-lines: no-limit;  	
+  -webkit-hyphenate-limit-before: 1; 
+  -webkit-hyphenate-limit-after: 1;  
+  -webkit-hyphenate-limit-chars: 3 1 1; 
+  -ms-hyphenate-limit-chars: 3 1 1; 
+  hyphenate-limit-chars: 3 1 1;  	
 }
 
 .thing img {
@@ -242,18 +263,22 @@ p, h3 {
   text-align: left;
 }
 
+audio, video {
+  display: block;
+}
+
 .old-squares-flex-container {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  text-lign: center;
+  text-align: center;
   max-width: 1400px;
   align-content: flex-start;
   row-gap: 2px;
   column-gap: 2px;
   position: relative;
-  margin: -1em auto -1em;
+  margin: -3em auto 0;
 }
 
 .old-squares-flex-container > img {
@@ -263,4 +288,167 @@ p, h3 {
   width: 15%;
   height: auto;
   flex-grow: 1;
+}
+
+.old-squares-flex-container+.main-content {
+  margin-top: 0;
+} 
+
+.old-squares-flex-container+.main-content>.timeline-container {
+  padding-top: 3em;
+} 
+
+.timeline-flex, .bandcamp-flex {
+  display: flex;
+  width: 100%;
+  column-gap: 1.5em;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+.timeline-flex p, .bandcamp-flex p {
+ text-align: left;
+/*   hyphens: none; */
+}
+
+.bandcamp-flex {
+  flex-direction: row-reverse;
+}
+
+.picline {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  align-content: space-between;
+  row-gap: 2px;
+  column-gap: 2px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.picline > img {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.picline.upod > img {
+  max-height: 267px;
+}
+
+.picline.osh > img {
+  max-height: 305px;
+}
+
+.promo-boxes {
+  display: flex;
+  width: 100%;
+  max-width: 1120px;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 2em 0 3em;
+}
+
+.promo-box {
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  padding: 1em;
+  background: white;
+  width: 355px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.18);
+  transition: transform .2s; /* Animation */
+}
+
+.border-up {
+  box-sizing: border-box;
+  border: 1px solid;
+  border-color: rgba(0,0,0,0.18);
+}
+
+.promo-box * {
+  max-width: 100%;
+}
+
+.promo-box:hover {
+  transform: scale(1.03);
+}
+
+.promo-box h2 {
+  margin: 0 0 0.5em;
+  padding: 0;
+}
+
+a.promo-box-link  {
+  text-decoration: none;
+  color: #515151;
+}
+
+a.promo-box-link:hover  {
+  color: #515151;
+}
+
+a.promo-box-link:visited {
+  color: #515151;
+}
+
+.bandcamp-promo-box {
+  padding: 0;
+  height: 473px;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  column-gap: 6em;
+  row-gap: 0.5em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: flex-start;
+  margin: 0;
+  padding: 1em 2em 1em 2em;
+  box-sizing : border-box;
+  background-color: #333;
+  color: #efefef;
+  font-family: courier, monospace, serif;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.footer a {
+  color: #efefef;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer a:hover {
+  color: #e76f6f; /* pink */
+}
+
+.bio-intro {
+  margin: 1em 0 4em;
+}
+
+.bio-intro p {
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0 0 1.5em;
+  color: #515151;
 }
