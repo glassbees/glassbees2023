@@ -1,0 +1,132 @@
+Notes
+
+
+------------------
+
+LAUNCH CHECKLIST:
+
+- test 404 pages
+- test mobile
+- change various relative/absolute paths as needed.
+- change timeline.html to history or about?
+
+------------------
+
+Design:
+
+- Big backdrop of Envoy panorama and/or Monkeytown
+
+- transparent background Glass Bees signature over big photo
+
+- Captains of Industry character on bottom of some page.
+
+- keep general courier typography look? Or go with Unique Places of death typogtaphy
+
+- grid of each track's artwork? maybe as background?
+
+- do something more prominent with photo of mom and kid at Places of Death
+
+
+----------------------
+
+Potential generators to use:
+
+- Jekyll
+- Sergey
+
+\
+
+----------------------
+
+<img src="media/glassbees-script-logo-2023-tall-white.png" class="logo">
+<img src="media/glassbees-script-logo-2023-tall-black.png" class="logo">
+<img src="media/glassbees-script-logo-2023-long-black.png" class="logo-image">
+<!--
+  the method I removed the logo backgrounds right:
+  https://tomchalky.com/tutorials/remove-background-sketch-custom-lettering/
+-->
+
+
+
+----------------------
+
+*** ADD PHOTOG CREDITS ***
+
+
+BANDCAMP
+DISASTER
+TCSH
+CONTACT
+
+ABOUT
+  Jason Das 
+  Andrea Williams
+  Chris Williams
+  
+
+MISSING VIDEO TO SOURCE:
+
+  - Chico MacMurtrie documentary by Nerina Penzhorn for "Caught in the Act: Art in Brooklyn” series for Brooklyn Independent Television/BRIC/BCAT. (we have dead link; I can't find any other evidence online that this ever even existed, but I assume Nerina has a copy).
+   http://glassbees.com/chico-macmurtrie-caught-in-the-act.html
+
+
+VIDEO
+
+Chris gives a tour of "Unique Places of Death"
+  http://glassbees.com/unique-places-of-death.html
+  video by Hart Island Project and hosted by hartislandproject on YouTube. Jason has downloaded a backup copy.
+
+ "Spinning" 
+   http://glassbees.com/spinning.html
+   https://vimeo.com/16893444
+   video by Chris hosted on Jason's Vimeo account
+
+ "Reading Governors Island"
+   http://glassbees.com/reading-governors-island.html
+   https://vimeo.com/17031384
+   video by Chris hosted on Jason's Vimeo account
+
+ "Ça Fa Palome"
+   http://glassbees.com/ca-fa-palome-video-by-greg-harrison.html
+   https://vimeo.com/18119806
+   video by Greg Harrison, hosted on Greg's Vimeo account
+
+ "Live at Art Social”
+   http://glassbees.com/performance-art-social-august-1-2009.html
+   https://www.youtube.com/watch?v=6LSN5VBYV58
+   video by Chris(?) on Chris’s YouTube account
+
+"Venice Brooklyn" video by Peter Shapiro 
+  http://glassbees.com/conflux2009.html
+
+ 28 Noisy Noises, March 4 2009
+   http://glassbees.com/well-be-performing-at-barbes-on-march-4th-as-part-of-ranjits-28-noisy-noises.html
+   https://vimeo.com/22872008
+   video by Peter Shapiro hosted on Jason's Vimeo account
+   (related NPR coverage: https://www.npr.org/2009/03/07/101542817/an-instrument-a-day-crafted-by-hand )
+
+OptoSonic Tea at Diapason Gallery February 16, 2009 performance video from Peter Shapiro
+  http://glassbees.com/well-be-performing-at-optosonic-tea-on-february-16.html
+
+ “Saint Jude” (documentary about Mary Lynch by  Nerina Penzhorn)
+   http://glassbees.com/saint-jude.html
+   https://www.youtube.com/watch?v=H8KMX7YL9J4
+   video by Nerina Penzhorn hosted by cinelanfilms on Youtube. Jason has downloaded a backup copy.
+
+
+PROJECTS THAT DESERVE A PAGE EACH 
+  Venice Brooklyn
+  Unique Places of Death
+  Reading Governor's Island
+  For TCSH and Disaster just link to bandcamp?
+
+AUDIO
+  Tops Crops Snaps Hots 
+    released 2008, featuring recordings from 2006-2008
+    
+  For Tomorrow Disaster May Come 
+    released 2023, featuring recordings from 20xx-20xx
+
+
+
+  

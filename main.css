@@ -112,11 +112,7 @@ body {
   left: 1em;
   line-height: 1.1;
   z-index: 9;
-<<<<<<< HEAD
   padding-bottom: 0.5em;
-=======
-  padding-bottom; 0.5em;
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
   font-family: courier, monospace, serif;
   font-size: 14px;
 }
@@ -170,11 +166,7 @@ body {
 h1, h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
-<<<<<<< HEAD
 	line-height: 1.1;
-=======
-	line-height: 1.2;
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
 	font-size: 36px;
 }
 
@@ -258,12 +250,8 @@ p.date, .thing p, .thing h3  {
 }
 
 .main-content .thing img.flyer {
-<<<<<<< HEAD
   width: 350px;
   height: auto;
-=======
-  max-width: 400px;
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
 }
 
 .thing img.halfpic {
@@ -379,11 +367,7 @@ audio, video {
   box-sizing: border-box;
   display: block;
   margin: 0;
-<<<<<<< HEAD
   padding: 1em 1em 0.25em 1em;
-=======
-  padding: 1em;
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
   background: white;
   width: 355px;
   border: 1px solid;
@@ -406,7 +390,6 @@ audio, video {
 }
 
 .promo-box h2 {
-<<<<<<< HEAD
   margin: 0 0 0.25em;
   padding: 0;
 }
@@ -415,12 +398,6 @@ audio, video {
   margin: 0.25em 0 0.5em 0;
 }
 
-=======
-  margin: 0 0 0.5em;
-  padding: 0;
-}
-
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
 a.promo-box-link  {
   text-decoration: none;
   color: #515151;
@@ -471,11 +448,7 @@ a.promo-box-link:visited {
 }
 
 .bio-intro {
-<<<<<<< HEAD
   margin: 1em 0 2em;
-=======
-  margin: 1em 0 4em;
->>>>>>> dece1600337cba89832779b1cc2d998a26776143
 }
 
 .bio-intro p {
