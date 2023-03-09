@@ -8,7 +8,9 @@ LAUNCH CHECKLIST:
 - test 404 pages
 - test mobile
 - change various relative/absolute paths as needed.
-- change timeline.html to history or about?
+- change timeline.html to history.html ?
+- check for [[ TK ]]s!
+- anchor #ids for timeline items?
 
 ------------------
 

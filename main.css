@@ -468,6 +468,9 @@ a.promo-box-link:visited {
   .old-squares-flex-container > img {
     width: 20%;
   }
+  .timeline-flex, .bandcamp-flex {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -529,9 +532,6 @@ a.promo-box-link:visited {
   .promo-box {
     width: 355px;
     margin: 0;
-  }
-  .timeline-flex, .bandcamp-flex {
-    flex-wrap: no-wrap;
   }
 }
 
