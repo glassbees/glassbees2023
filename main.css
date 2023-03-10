@@ -190,7 +190,7 @@ h3 {
   overflow: hidden;
   margin: 0 auto;
   top: -0.5em;
-  padding: 0 0 2em 0.5em;
+  padding: 0 0 4em 0.5em;
 }
 
 p.date  {
@@ -298,7 +298,6 @@ audio, video {
 
 .timeline-flex p, .bandcamp-flex p {
  text-align: left;
-/*   hyphens: none; */
 }
 
 .bandcamp-flex {
@@ -315,7 +314,7 @@ audio, video {
   row-gap: 2px;
   column-gap: 2px;
   position: relative;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -325,6 +324,11 @@ audio, video {
   padding: 0;
   width: auto;
 }
+
+.picline.govsisl > img {
+  max-height: 315px;
+}
+
 
 .picline.upod > img {
   max-height: 267px;
@@ -473,10 +477,12 @@ a.promo-box-link:visited {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 735px) {
   .old-squares-flex-container > img {
     width: 15%;
   }
+  .picline {
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 800px) {
@@ -540,7 +546,7 @@ a.promo-box-link:visited {
     left: -4em;
   }
   .thing {
-      padding: 0 0 3em 4em;
+      padding: 0 0 6em 4em;
   }
   .timeline .thing:before {
     width: 3em;
