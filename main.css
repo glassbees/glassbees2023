@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
 
 /* ////// BEGIN GENERAL RESET STYLES ////// */
 
@@ -146,7 +146,7 @@ body {
 
 h1, h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.1;
 	font-size: 36px;
 }

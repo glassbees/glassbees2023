@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic");
 
 html, body {
 	padding: 0;
@@ -250,7 +250,7 @@ article.main section.flow img, article.main section.flow .video {
 
 article.main h1, article.main h2 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.2;
 }
 
